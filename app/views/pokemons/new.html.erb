@@ -1,0 +1,4 @@
+<%= simple_form_for @pokemon, :url => {:action => "create"} do |f| %>
+    <%= f.input :name , placeholder: "Input name"%>
+    <%= f.button :submit %>
+<% end %>
